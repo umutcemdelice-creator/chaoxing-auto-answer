@@ -1,0 +1,24 @@
+# 凭据：绝对不要提交
+.env
+.env.*
+!.env.example
+
+# 运行产物
+*.log
+answer_cache.json
+failed_questions.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
